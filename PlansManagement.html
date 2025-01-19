@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Trading Back office Admin</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/OrderManagement.css"> -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/solid.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <div class="main-content">
+        <div class="container-fluid common-px">
+             <div class="row">
+                <div class="col-3 sidebar-wrapper">
+                    <div class="sidebar">
+                        <div class="logo-wrapper">
+                            <div class="">
+                                <div class="logo">
+                                    <img src="assets/img/logo-bg-black.svg" class="w-100 " alt="">
+                                </div>
+                                <div class="mt-2 w-100 bg-main text-white rounded-4 py-2 px-3 text-center">
+                                    <h4 class="logo-text m-0 fw-bold">
+                                        Admin <span>Panel</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-content">
+                            <a href="index.html" class="active">
+                                <span><i class="fa-solid fa-home"></i></span>
+                                <span>Dashboard</span>
+                            </a>
+                            <a href="CustomerManagement.html" class="">
+                                <span><i class="fa-solid fa-users"></i></span>
+                                <span>Customers Management</span>
+                            </a>
+                            <a href="TradingPlatform.html" class="">
+                                <span><i class="fa-solid fa-line-chart"></i></span>
+                                <span>Trading Platform Magnet</span>
+                            </a>
+                            <a href="ChallengeManagement.html" class="">
+                                <span><i class="fa-solid fa-tasks"></i></span>
+                                <span>Challenge Management</span>
+                            </a>
+                            <a href="OrderManagement.html" class="">
+                                <span><i class="fa-solid fa-shopping-cart"></i></span>
+                                <span>Orders Management</span>
+                            </a>
+                            <a href="ContractsManagement.html" class="">
+                                <span><i class="fa-solid fa-user-circle"></i></span>
+                                <span>Contracts Management</span>
+                            </a>
+                            <a href="PendingUpgrades.html" class="">
+                                <span><i class="fa-solid fa-peace"></i></span>
+                                <span>Pending Upgrades Magnet</span>
+                            </a>
+                            <a href="RiskTigerMagnet.html" class="">
+                                <span><i class="fa-solid fa-user-secret"></i></span>
+                                <span>Risk Trigers Magnet</span>
+                            </a>
+                            <a href="AffiliatesManagement.html" class="">
+                                <span><i class="fa-solid fa-asterisk"></i></span>
+                                <span>Affiliates Management</span>
+                            </a>
+                            <a href="PropAccountManagement.html" class="">
+                                <span><i class="fa-solid fa-user-alt"></i></span>
+                                <span>Prop Accounts Management</span>
+                            </a>
+                            <a href="PropPayoutManagement.html" class="">
+                                <span><i class="fa-solid fa-user-times"></i></span>
+                                <span>Prop Payouts Management</span>
+                            </a>
+                            <a href="AffiliatesPsyoutsManagement.html" class="">
+                                <span><i class="fa-solid fa-dollar-sign"></i></span>
+                                <span>Affiliates Payouts Management</span>
+                            </a>
+                            <a href="#" class="">
+                                <span><i class="fa-solid fa-user-friends"></i></span>
+                                <span>Plans Management</span>
+                            </a>
+                            <a href="ReportsManagement.html" class="">
+                                <span><i class="fa-solid fa-hand-holding-usd"></i></span>
+                                <span>Reports Management</span>
+                            </a>
+                            <a href="ContentManagement.html" class="">
+                                <span><i class="fa-solid fa-pencil-square"></i></span>
+                                <span>Content Management</span>
+                            </a>
+                            <a href="FAQManagement.html" class="">
+                                <span><i class="fa-solid fa-exclamation"></i></span>
+                                <span>FAQ Management</span>
+                            </a>
+                            <a href="DownloadManagement.html" class="">
+                                <span><i class="fa-solid fa-file"></i></span>
+                                <span>Download Management</span>
+                            </a>
+                            <a href="VideoMagnet.html" class="">
+                                <span><i class="fa-solid fa-download"></i></span>
+                                <span>Video Tutorial Magnet</span>
+                            </a>                           
+                            <a href="ImageManagement.html" class="">
+                                <span><i class="fa-solid fa-image"></i></span>
+                                <span>Image Management</span>
+                            </a>
+                            <a href="UsersManagement.html" class="">
+                                <span><i class="fa-solid fa-lock"></i></span>
+                                <span>Users Management</span>
+                            </a>
+                            <a href="AnnouncementManagement.html" class="">
+                                <span><i class="fa-solid fa-volume-down"></i></span>
+                                <span>Announcement</span>
+                            </a>
+                            <a href="DiscountsCodes.html" class="">
+                                <span><i class="fa-solid fa-tags"></i></span>
+                                <span>Discount Codes Magnet</span>
+                            </a>
+                            <a href="EmailManagement.html" class="">
+                                <span><i class="fa-solid fa-envelope"></i></span>
+                                <span>Email Management</span>
+                            </a>
+                            <a href="Logout.html" class="">
+                                <span><i class="fa-solid fa-sign-out"></i></span>
+                                <span>Logout</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 content-part-wrapper">
+                    <div class="content-part">
+                        <div id="header" class="header">
+                            <div class="d-flex justify-content-end h-100 align-items-center">
+                                <div class="change-color">
+                                    <div class="change-color-item main-display light-blue-white-color"></div>
+                                    <div class="change-color-dropdown">
+                                        <div class="d-flex justify-content-between gap-1">
+                                            <div class="change-color-item light-blue-white-color"></div>
+                                            <input type="radio" class="color-radio light-blue-white-color-radio " value="light-blue-white-color" name="color-change" checked>
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-1">
+                                            <div class="change-color-item yellow-color"></div>
+                                            <input type="radio" class="color-radio yellow-color-radio " value="yellow-color" name="color-change">
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-1">
+                                            <div class="change-color-item danger-color"></div>
+                                            <input type="radio" class="color-radio danger-color-radio " value="danger-color" name="color-change">
+                                        </div>
+                                        <div class="d-flex justify-content-between gap-1">
+                                            <div class="change-color-item success-color"></div>
+                                                <input type="radio" class="color-radio success-color-radio " value="success-color" name="color-change">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" notification-bell">
+                                    <i class="fa-solid fa-bell"></i>
+                                </div>
+                                <div class="custom-profile-dropdown position-relative">
+                                    <div class="profile">
+                                        <div class="user mt-4">
+                                            <h3>Shubham saini</h3>
+                                            <p>shubhaamm@gmail.com</p>
+                                        </div>
+                                        <div class="img-box">
+                                            <img src="assets/img/user4 (1).jpg" alt="" class="w-100 h-100">
+                                        </div>
+                                    </div>
+                                    <div class="menu"></div>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="mt-4">
+                        <div class="common-design pb-0 light-list-blue">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex gap-3">
+                                    <div class="">
+                                        <h2 class="common-heading text-white mb-2">Plan Management</h2>
+                                        <span class="border rounded-circle text-white px-2 pb-1">3</span>
+                                    </div>
+                                    <div class="">
+                                        <a href="#" class="common-btn"><i class="fa-solid fa-plus"></i>  ADD</a>
+                                    </div>
+                                    <div class="">
+                                        <a href="#" class="common-btn"><i class="fa-solid fa-arrow-left"> </i>  Go To Competition Management</a>
+                                    </div>
+                                </div>
+                                <div class="breadcrumb-img-wrapper">
+                                    <div class="breadcrumb-img">
+                                        <img src="assets/img/ChatBc.webp" class="w-100 h-100" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="mt-4">
+                        <div class="common-design2">
+                            <div class="common-design-header">
+                                <div class="">
+                                    <ul class="d-flex align-items-center gap-3 p-0 b-0">
+                                        <li class="nav-link nav-items"><a href="#" onclick="One_Step_Assessment()" class="common-btn rounded px-3">One step Assessment</a></li>
+                                        <li class="nav-link nav-items"><a href="#" onclick="One_Step_Fund()" class="rounded px-3">One Step Funded</a></li>
+                                        <li class="nav-link nav-items"><a href="#" onclick="Two_Step_Assessment_1()" class="rounded px-3">Two Step Assessment (Phase 1)</a></li>
+                                        <li class="nav-link nav-items"><a href="#" onclick="Two_Step_Assessment()" class="rounded px-3">Two Step Assessment (Phase 2)</a></li>
+                                        <li class="nav-link nav-items"><a href="#" onclick="Instant_Funding()" class="rounded px-3">Instant Funding</a></li>
+                                        <li class="nav-link nav-items"><a href="#" onclick="Free_Trial()" class="rounded px-3">Free Trial</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <!-- one step assessment -->
+                       <div class="mt-4 One-Step-Assessment">
+                        <div class="common-design2">
+                            <div class="common-design-header">
+                                <!-- <div class="d-flex"> -->
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="common-heading text-white">Plan Management</h2>
+                                        <div class="">
+                                            <div class="dropdown">
+                                                <button class="common-btn bg-dark-main rounded px-3" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-filter"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="common-design-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SR</th>
+                                                <th>LOGIN</th>
+                                                <th>NAME</th>
+                                                <th>GROUP</th>
+                                                <th>TICKET</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>123</td>
+                                                <td>JHon Doe</td>
+                                                <td>Forex Doe</td>
+                                                <td>Ticket</td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center gap-2 align-items-center">
+                                                        <a href="" class="table-icon bg-success"><i class="fa-solid fa-desktop"></i></a>
+                                                        <a href="" class="table-icon bg-main"><i class="fa-solid fa-pencil"></i></a>
+                                                        <a href="" class="table-icon bg-danger"><i class="fa-solid fa-trash"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <!-- One step fund -->
+                       <div class="mt-4 One-Step-Fund" id="One-Step-Fund">
+                        <div class="common-design2">
+                            <div class="common-design-header">
+                                <!-- <div class="d-flex"> -->
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="common-heading text-white">Plan Management</h2>
+                                        <div class="">
+                                            <div class="dropdown">
+                                                <button class="common-btn bg-dark-main rounded px-3" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-filter"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="common-design-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SR</th>
+                                                <th>SERVICE</th>
+                                                <th>GROUP</th>
+                                                <th>PLAN</th>
+                                                <th>DIRECTION</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <!-- one Step Assessment 1-->
+                       <div class="mt-4 Two-Step-Assessment-1">
+                        <div class="common-design2">
+                            <div class="common-design-header">
+                                <!-- <div class="d-flex"> -->
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="common-heading text-white">Plan Management</h2>
+                                        <div class="">
+                                            <div class="dropdown">
+                                                <button class="common-btn bg-dark-main rounded px-3" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-filter"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="common-design-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SR</th>
+                                                <th>SERVICE</th>
+                                                <th>GROUP</th>
+                                                <th>PLAN</th>
+                                                <th>DIRECTION</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <!-- Two Step Assessment-->
+                       <div class="mt-4 Two-Step-Assessment">
+                        <div class="common-design2">
+                            <div class="common-design-header">
+                                <!-- <div class="d-flex"> -->
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="common-heading text-white">Plan Management</h2>
+                                        <div class="">
+                                            <div class="dropdown">
+                                                <button class="common-btn bg-dark-main rounded px-3" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-filter"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="common-design-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SR</th>
+                                                <th>SERVICE</th>
+                                                <th>GROUP</th>
+                                                <th>PLAN</th>
+                                                <th>DIRECTION</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <!-- Instant funding -->
+                       <div class="mt-4 Instant-Funding">
+                        <div class="common-design2">
+                            <div class="common-design-header">
+                                <!-- <div class="d-flex"> -->
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="common-heading text-white">Plan Management</h2>
+                                        <div class="">
+                                            <div class="dropdown">
+                                                <button class="common-btn bg-dark-main rounded px-3" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-filter"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="common-design-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <tr>
+                                                    <th>SR</th>
+                                                    <th>SERVICE</th>
+                                                    <th>GROUP</th>
+                                                    <th>PLAN</th>
+                                                    <th>DIRECTION</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <!-- free trial-->
+                       <div class="mt-4 Free-Trial">
+                        <div class="common-design2">
+                            <div class="common-design-header">
+                                <!-- <div class="d-flex"> -->
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h2 class="common-heading text-white">Plan Management</h2>
+                                        <div class="">
+                                            <div class="dropdown">
+                                                <button class="common-btn bg-dark-main rounded px-3" type="button" data-bs-toggle="dropdown"><i class="fa-solid fa-filter"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                            </div>
+                            <div class="common-design-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>SR</th>
+                                                <th>SERVICE</th>
+                                                <th>GROUP</th>
+                                                <th>PLAN</th>
+                                                <th>DIRECTION</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <script>
+        var one_step_assessment = document.getElementsByClassName('One-Step-Assessment');
+            var one_step_fund = document.getElementsByClassName('One-Step-Fund');
+            var two_step_assessment1 = document.getElementsByClassName('Two-Step-Assessment-1');
+            var two_step_assessment = document.getElementsByClassName('Two-Step-Assessment');
+            var instant_funding = document.getElementsByClassName('Instant-Funding');
+            var free_trial = document.getElementsByClassName('Free-Trial');
+        function One_Step_Assessment(){
+            
+            if(one_step_assessment){
+                one_step_assessment[0].style.display = 'block';
+                two_step_assessment[0].style.display = 'none';
+                two_step_assessment1[0].style.display = 'none';
+                one_step_fund[0].style.display = 'none';
+                instant_funding[0].style.display = 'none';
+                free_trial[0].style.display = 'none';
+            }else{
+            }
+        }
+        function One_Step_Fund(){
+           
+            if(one_step_fund){
+                one_step_fund[0].style.display = 'block';
+                one_step_assessment[0].style.display = 'none';
+                two_step_assessment1[0].style.display = 'none';
+                two_step_assessment[0].style.display = 'none';
+                instant_funding[0].style.display = 'none';
+                free_trial[0].style.display = 'none';
+            }else{
+            }
+        }
+        function Two_Step_Assessment_1(){
+            
+            if(two_step_assessment1){
+                two_step_assessment1[0].style.display = 'block';
+                two_step_assessment[0].style.display = 'none';
+                one_step_assessment[0].style.display = 'none';
+                one_step_fund[0].style.display = 'none';
+                instant_funding[0].style.display = 'none';
+                free_trial[0].style.display = 'none';
+            }else{
+            }
+        }
+        function Two_Step_Assessment(){
+            
+            if(two_step_assessment){
+                two_step_assessment[0].style.display = 'block';
+                two_step_assessment1[0].style.display = 'none';
+                one_step_assessment[0].style.display = 'none';
+                one_step_fund[0].style.display = 'none';
+                instant_funding[0].style.display = 'none';
+                free_trial[0].style.display = 'none';
+            }else{
+            }
+        }
+        function Instant_Funding(){
+            
+            if(instant_funding){
+                instant_funding[0].style.display = 'block';
+                one_step_assessment[0].style.display = 'none';
+                one_step_fund[0].style.display = 'none';
+                two_step_assessment[0].style.display = 'none';
+                two_step_assessment1[0].style.display = 'none';
+                free_trial[0].style.display = 'none';
+            }else{
+            }
+        }
+
+        function Free_Trial(){
+            if(free_trial){
+                free_trial[0].style.display = 'block';
+                one_step_assessment[0].style.display = 'none';
+                one_step_fund[0].style.display = 'none';
+                two_step_assessment[0].style.display = 'none';
+                two_step_assessment1[0].style.display = 'none';
+                instant_funding[0].style.display = 'none';
+            }else{
+            }
+        }
+
+        // function (){
+        //     var x = document.getElementsById("active-contract");
+            // x.classList.add("common-btn");
+        // }
+    </script>
+</body>
+</html>

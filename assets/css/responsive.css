@@ -1,0 +1,10 @@
+@media (max-width: 1200px) {}
+
+/* small laptop */
+@media (max-width: 1024px) {}
+
+/* tab */
+@media (max-width: 900px) {}
+
+/* phone */
+@media (max-width: 767px) {}
